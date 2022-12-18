@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+}
+img{
+    display: block;
+    width: 100%;
+}
+body{
+    background-color: #89B8C2;
+}
+main{
+    width: 680px;
+    padding: 30px 60px;
+    background-color: white;
+    margin: 0 auto;
+}
+@media screen and (min-width:412px){
+    main{
+        border-radius: 8px 8px 0px 0px;
+        width: 388px;
+    }
+    @media screen and (min-width:620px){
+        main{
+            max-width: 620px;
+        }
+    }
+}
+@media screen and (min-width:820px){
+    main{
+        border-radius: 16px 16px 0px 0px;
+        min-width: 680px;
+    }
+}
+header{
+    background-color: #CCE9F4;
+    margin: 0 auto; 
+    flex-direction: column;
+    display: flex;
+}
+@media screen and (min-width:412px) and(max-width:619){
+    header{
+       width: 386px;
+       flex-direction: column;
+       padding-bottom: 6px;
+       margin-bottom: 16px;
+       margin-top: 12px;
+       border-radius: 8px;
+    }
+    @media screen and (min-width:620px){
+        header{
+            padding: 0;
+        }
+    }
+}
+@media screen and (min-width:820px){
+    header{
+        width: 800px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        margin: 0 auto;
+        border-radius: 8px;
+        margin-bottom: 16px;
+        margin-top: 65px;
+        display: flex;
+        justify-content: center;
+    }
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+}
+@media screen and (min-width:412px){
+    ul{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:620px){
+    ul{
+        flex-direction: row;
+    }
+}
+@media screen and (min-width:820px){
+    ul{
+        
+    }
+}
+.link{
+    display: block;
+    text-decoration: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #006EBE;
+    padding: 6px 10px;
+}
+@media screen and (min-width:412px){
+    .link{
+        text-align: center;
+    }
+}
+@media screen and (min-width:620px){
+    .link{
+            
+    }
+}
+ @media screen and (min-width:820px){
+     .link{
+                
+}
+ }
+.hidden{
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-bottom: 3px;
+        text-align: center;
+        font-family: 'Arial Black';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+}
+@media screen and (min-width:620px){
+    .hidden{
+        display: none;         
+}
+ }
+.link:visited{
+    color: #006EBE;
+    }
+
+.link:hover{
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: url(./img/cursor-hover.svg), auto;
+}
+figure{
+    border-radius: 8px;
+    background-color: #CCE9F4; 
+    text-align: center;   
+    margin-top: 16px;
+}
+@media screen and (min-width:412px){
+figure{
+    padding: 0;
+
+    }
+}
+@media screen and (min-width:620px){
+figure{
+    border-radius: 10px;
+    padding: 20px 20px 10px 20px;
+    }
+}
+@media screen and (min-width:820px){
+figure{
+    border-radius: 8px;
+    }
+}
+h1{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 73px;
+    color: #000000;
+    margin-top: 16px;
+}
+h2{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    color: #000000;
+    margin-top: 16px;
+    margin-bottom: 5px;
+}
+p{
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+footer{
+    width: 800px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #CCE9F4;
+    margin: 0 auto;
+    border-radius: 0px 0px 8px 8px;
+    margin-bottom: 38px;
+    text-align: center;
+}
+.link-block{
+    text-decoration: none;
+    color: #006EBE;
+}
+.block{
+    background: #E9E9E9;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: #E9E9E9;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+section:not(:last-child){
+    margin-bottom: 16px;
+}
+.item:not(:last-child){
+    border-bottom: 1px solid #89B8C2;
+}
+.item{
+    padding: 10px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+.item:nth-child(2n+1){
+    background: #EFFAFF;
+}
+.item:nth-child(4){
+    background: #F7FFEF;
+}
+ol{
+    list-style: none;
+    padding: 0;
+}
+ 
